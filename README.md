@@ -1,6 +1,12 @@
-# PPGpep: A Panproteome Graph for Enhanced Peptide and Protein Identification
+
+- **Reduced misidentification** of human peptides as microbial peptides through a more complete proteome representation.
+
+## Acknowledgements# PPGpep: A Panproteome Graph for Enhanced Peptide and Protein Identification
 
 This repository contains the code and resources for generating the **Panproteome Graph (PPG)** and performing statistical analysis, as described in our paper. The PPG enables improved peptide and protein identification from proteomic data by utilizing the **human pangenome**, providing deeper insights into the shared peptides across the proteome.
+
+## Data Availability
+The datasets supporting this work are accessible at [PPGnet](https://omics.informatics.indiana.edu/PPGnet/).
 
 ## Overview
 In this study, we developed a novel data structure called the **Panproteome Graph (PPG)**, where **nodes represent tryptic peptides**. The PPG was constructed using **47 human proteomes** from the Human Pangenome Reference Consortium (HPRC) and **UniProt human proteins**, resulting in over **4.2 million tryptic peptides**—a **26% increase** compared to using UniProt proteins alone.
@@ -47,7 +53,4 @@ pip install networkx matplotlib pandas
 ## Results
 - **26% more tryptic peptides** identified with the PPG compared to using UniProt alone.
 - **8% increase in peptide identification** across human proteomic and metaproteomic datasets.
-- **Reduced misidentification** of human peptides as microbial peptides through a more complete proteome representation.
-
-## Acknowledgements
 This project is based on data from the **Human Pangenome Reference Consortium (HPRC)** and **UniProt**.
