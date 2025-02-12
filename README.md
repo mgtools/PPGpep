@@ -53,4 +53,7 @@ pip install networkx matplotlib pandas
 - **8% increase in peptide identification** across human proteomic and metaproteomic datasets.
 This project is based on data from the **Human Pangenome Reference Consortium (HPRC)** and **UniProt**.
 
+## Reference
+Jamie Canderan, Ruoying Yuan, Haixu Tang, and Yuzhen Ye. Leveraging the Human Panproteome to Enhance Peptide and Protein Identification in Proteomics and Metaproteomics. doi: https://doi.org/10.1101/2024.11.25.625239
+
 ## Acknowledgements
